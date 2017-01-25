@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#gameBox {
+    position: relative;
+    height: 500px;
+    width: 90%;
+    border: 5px solid black;
+    background-color: lightskyblue;
+    margin-left: 4.5%;
+    margin-top: 4.5%;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    background-color: green;
+    height: 42px;
+    width: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 5%;
+    
+}
+
+.wallClass {
+    position: absolute;
+    height: 420px;
+    width: 42px;
+    background-color: black;
+}
+
+#wallOne {
+    top: 0;
+    right: 300px;
+}
+
+#wallTwo {
+    bottom: 0;
+    right: 100px;
+}
+
+#win {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 4px solid gold;
+    background-color: yellow;
+    right: 15px;
+    bottom: 15px;
+}
+
+#winBox {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    height: 240px;
+    width: 600px;
+    background-color: red;
+    color: black;
+    font-family: "Arial";
+    font-size: 78px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
